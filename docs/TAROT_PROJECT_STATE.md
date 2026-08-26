@@ -1,38 +1,41 @@
 # TAROT_PROJECT_STATE.md
 
-## Project path
+## Canonical delivery
 
-`/Users/shivan/Documents/tarot-learning-proof`
+- Local project: `/Users/shivan/Documents/Projects/tarot-learning-proof`
+- GitHub source: `https://github.com/investiciiv/tarot-learning-proof`
+- Production branch: `main`
+- Vercel project: `investiciiv-6233s-projects/tarot-learning-proof`
+- Vercel project ID: `prj_FOHdyUeZjAy0pCEUOgQdXJmOk3Gh`
+- Vercel production URL: `https://tarot-learning-proof.vercel.app/`
+- Git integration: `investiciiv/tarot-learning-proof` connected through the Vercel GitHub App; production branch confirmed as `main`.
+- Auto-deploy: PASS — push of commit `c0b2c8854fa6ab8e8efc9eef00844dad3fca0111` created production deployment `dpl_GtUSpy2Fj7fRbcTMUy3RTaW5JC85`, which reached `READY`.
 
-## Stack
+## Version and stack
 
-Vite 8 + React + TypeScript + CSS; Vitest; versioned `localStorage` persistence behind an adapter; GitHub Actions + GitHub Pages.
-
-## Version
-
-`0.1.0` — Proof 001.
-
-## Implemented features
-
-- One learning journey: today → card/theme → study → A/B/C practice → feedback → progress → next step.
-- Tarot Map with all 78 RWS cards, 22 Major Arcana, 56 Minor Arcana, four suits, and Court Cards.
-- Card learning with name, number/rank, core meaning, shadow meaning, symbols, source labels, and exact PDF page provenance.
-- Eight three-answer recognition questions with immediate feedback.
-- Attempts, correct answers, accuracy, and mastery persisted locally after restart.
-- Responsive desktop and mobile navigation.
-- Separated canonical content, mutable user state, and a future-sync interface without sync implementation.
+- Version: `0.1.0` — Proof 002A delivery PASS; Proof 001 product behavior retained.
+- Stack remains Vite 8 + React + TypeScript + CSS with Vitest and versioned local persistence.
+- Next.js migration: NOT performed.
+- Cloud state, Supabase, Auth, and sync: NOT performed.
 
 ## PASS / FAIL
 
-- Technical: PASS — typecheck, tests, production build, GitHub Actions, and HTTPS deployment.
-- Product: PASS — lesson, quiz feedback, next step, and reload persistence verified.
-- UX: PASS — desktop 1440×900 and mobile 390×844 verified without horizontal overflow or console errors.
+- Canonical path: PASS.
+- Git integrity: PASS.
+- Vercel production deploy: PASS.
+- Desktop and mobile HTTPS access: PASS.
+- GitHub ↔ Vercel integration: PASS.
+- Automatic production deployment from `main`: PASS.
+
+## Rollback
+
+- GitHub Pages remains enabled and untouched as the Proof 001 rollback delivery: `https://investiciiv.github.io/tarot-learning-proof/`.
+- Vercel is the candidate canonical delivery for Proof 002A.
 
 ## Blockers
 
-- Proof 001: none.
-- Broader production release: jurisdiction-specific rights review for distributing the S01 scan plates remains required.
+- Proof 002A: none.
 
-## Next step
+## Next smallest step
 
-Run one real ten-question learning session on a phone and record the first point where recall or flow breaks.
+Proof 002B — migrate the existing Vite/React application to Next.js while preserving the locked Proof 001 product behavior and the newly proven Vercel delivery.

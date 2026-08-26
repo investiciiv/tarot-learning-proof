@@ -1,4 +1,4 @@
-# Arcana — Tarot Learning Proof 001
+# Arcana — Tarot Learning
 
 A standalone, local-first Rider–Waite–Smith learning journey.
 
@@ -12,7 +12,7 @@ The app includes all 78 cards, the 22-card Major Arcana path, suit × number log
 
 ## Architecture
 
-- UI: React + TypeScript + plain responsive CSS.
+- Foundation: Next.js App Router + React + TypeScript + plain responsive CSS.
 - Canonical content: versioned modules in `src/content`.
 - Domain rules: `src/domain`.
 - User state: versioned `localStorage` adapter in `src/persistence`.
@@ -24,12 +24,15 @@ The app includes all 78 cards, the 22-card Major Arcana path, suit × number log
 ```bash
 npm install
 npm run dev
+npm run typecheck
 npm test
 npm run build
 ```
 
 ## Delivery
 
-`main` deploys the static `dist` artifact to GitHub Pages through `.github/workflows/deploy.yml`.
+`main` deploys automatically to the existing Vercel project.
 
-Expected URL: `https://investiciiv.github.io/tarot-learning-proof/`
+Production URL: `https://tarot-learning-proof.vercel.app/`
+
+The accepted Vite baseline remains available as tag `proof-002a-vite-pass` and branch `rollback/proof-002a-vite`. The GitHub Pages workflow is manual-only and rebuilds that immutable tag as the rollback snapshot.

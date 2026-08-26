@@ -13,7 +13,7 @@
 
 ## Version and stack
 
-- Version: `0.2.0` — Proof 002B framework migration PASS; locked Tarot product behavior retained.
+- Version: `0.1.0` — Proof 002B framework migration PASS; locked Tarot product behavior retained.
 - Stack: Next.js `16.3.3` App Router + React `19.2.8` + TypeScript + CSS; Vitest retained.
 - `/` is statically prerendered. Existing interactivity is behind the application client boundary; no server API or product SSR expansion was added.
 - Canonical content, domain, persistence, tests, all 78 RWS card images, and provenance data were preserved.

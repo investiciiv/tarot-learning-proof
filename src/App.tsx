@@ -1,10 +1,12 @@
-import { useEffect, useMemo, useState } from "react";
+"use client";
+
+import { useEffect, useRef, useState } from "react";
 import { cardsById } from "./content/cards";
 import { glossary } from "./content/glossary";
 import { quizzes } from "./content/quizzes";
 import { progressSummary } from "./domain/mastery";
 import type { TarotCard, UserProgress } from "./domain/types";
-import { createLocalProgressStore } from "./persistence/progress";
+import { createLocalProgressStore, EMPTY_PROGRESS } from "./persistence/progress";
 import { CardArtwork } from "./components/CardArtwork";
 import { CardDetail } from "./components/CardDetail";
 import { EvidenceLegend } from "./components/EvidenceLegend";
@@ -21,12 +23,23 @@ const navItems: { id: Screen; label: string; icon: string }[] = [
 ];
 
 export default function App() {
-  const store = useMemo(() => createLocalProgressStore(window.localStorage), []);
-  const [progress, setProgress] = useState<UserProgress>(() => store.load());
+  const storeRef = useRef<ReturnType<typeof createLocalProgressStore> | null>(null);
+  const [progress, setProgress] = useState<UserProgress>(() => structuredClone(EMPTY_PROGRESS));
+  const [hasLoadedProgress, setHasLoadedProgress] = useState(false);
   const [screen, setScreen] = useState<Screen>("journey");
   const [selectedCard, setSelectedCard] = useState<TarotCard | null>(null);
 
-  useEffect(() => store.save(progress), [progress, store]);
+  useEffect(() => {
+    const store = createLocalProgressStore(window.localStorage);
+    storeRef.current = store;
+    setProgress(store.load());
+    setHasLoadedProgress(true);
+  }, []);
+
+  useEffect(() => {
+    if (!hasLoadedProgress) return;
+    storeRef.current?.save(progress);
+  }, [hasLoadedProgress, progress]);
 
   const summary = progressSummary(progress);
   const nextQuiz = quizzes[progress.attempts.length % quizzes.length];

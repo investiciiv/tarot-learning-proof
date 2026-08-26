@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === "build" ? "/tarot-learning-proof/" : "/",
+  base: process.env.VERCEL ? "/" : command === "build" ? "/tarot-learning-proof/" : "/",
   build: {
     sourcemap: true,
   },

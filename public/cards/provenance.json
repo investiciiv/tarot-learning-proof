@@ -1,0 +1,401 @@
+{
+  "sourceId": "S01",
+  "title": "The Pictorial Key to the Tarot",
+  "author": "Arthur Edward Waite",
+  "artist": "Pamela Colman Smith",
+  "edition": "William Rider & Son, 1922 scan",
+  "sourcePdfSha256": "2f54bc008cab332b10d9f114ba8dda55845ce850a05e3a707089677bf3d0abb8",
+  "transform": "Rendered at 180 dpi; fixed plate crop; grayscale autocontrast; 560x880 WebP",
+  "assets": [
+    {
+      "file": "major-00.webp",
+      "pdfPage": 166,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-01.webp",
+      "pdfPage": 86,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-02.webp",
+      "pdfPage": 90,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-03.webp",
+      "pdfPage": 94,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-04.webp",
+      "pdfPage": 98,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-05.webp",
+      "pdfPage": 102,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-06.webp",
+      "pdfPage": 106,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-07.webp",
+      "pdfPage": 110,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-08.webp",
+      "pdfPage": 114,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-09.webp",
+      "pdfPage": 118,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-10.webp",
+      "pdfPage": 122,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-11.webp",
+      "pdfPage": 126,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-12.webp",
+      "pdfPage": 130,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-13.webp",
+      "pdfPage": 134,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-14.webp",
+      "pdfPage": 138,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-15.webp",
+      "pdfPage": 142,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-16.webp",
+      "pdfPage": 146,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-17.webp",
+      "pdfPage": 150,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-18.webp",
+      "pdfPage": 154,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-19.webp",
+      "pdfPage": 158,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-20.webp",
+      "pdfPage": 162,
+      "sourceId": "S01"
+    },
+    {
+      "file": "major-21.webp",
+      "pdfPage": 170,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-ace.webp",
+      "pdfPage": 210,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-2.webp",
+      "pdfPage": 208,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-3.webp",
+      "pdfPage": 206,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-4.webp",
+      "pdfPage": 204,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-5.webp",
+      "pdfPage": 202,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-6.webp",
+      "pdfPage": 200,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-7.webp",
+      "pdfPage": 198,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-8.webp",
+      "pdfPage": 196,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-9.webp",
+      "pdfPage": 194,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-10.webp",
+      "pdfPage": 192,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-page.webp",
+      "pdfPage": 190,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-knight.webp",
+      "pdfPage": 188,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-queen.webp",
+      "pdfPage": 186,
+      "sourceId": "S01"
+    },
+    {
+      "file": "wands-king.webp",
+      "pdfPage": 184,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-ace.webp",
+      "pdfPage": 238,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-2.webp",
+      "pdfPage": 236,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-3.webp",
+      "pdfPage": 234,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-4.webp",
+      "pdfPage": 232,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-5.webp",
+      "pdfPage": 230,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-6.webp",
+      "pdfPage": 228,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-7.webp",
+      "pdfPage": 226,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-8.webp",
+      "pdfPage": 224,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-9.webp",
+      "pdfPage": 222,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-10.webp",
+      "pdfPage": 220,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-page.webp",
+      "pdfPage": 218,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-knight.webp",
+      "pdfPage": 216,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-queen.webp",
+      "pdfPage": 214,
+      "sourceId": "S01"
+    },
+    {
+      "file": "cups-king.webp",
+      "pdfPage": 212,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-ace.webp",
+      "pdfPage": 266,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-2.webp",
+      "pdfPage": 264,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-3.webp",
+      "pdfPage": 262,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-4.webp",
+      "pdfPage": 260,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-5.webp",
+      "pdfPage": 258,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-6.webp",
+      "pdfPage": 256,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-7.webp",
+      "pdfPage": 254,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-8.webp",
+      "pdfPage": 252,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-9.webp",
+      "pdfPage": 250,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-10.webp",
+      "pdfPage": 248,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-page.webp",
+      "pdfPage": 246,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-knight.webp",
+      "pdfPage": 244,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-queen.webp",
+      "pdfPage": 242,
+      "sourceId": "S01"
+    },
+    {
+      "file": "swords-king.webp",
+      "pdfPage": 240,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-ace.webp",
+      "pdfPage": 294,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-2.webp",
+      "pdfPage": 292,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-3.webp",
+      "pdfPage": 290,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-4.webp",
+      "pdfPage": 288,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-5.webp",
+      "pdfPage": 286,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-6.webp",
+      "pdfPage": 284,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-7.webp",
+      "pdfPage": 282,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-8.webp",
+      "pdfPage": 280,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-9.webp",
+      "pdfPage": 278,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-10.webp",
+      "pdfPage": 276,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-page.webp",
+      "pdfPage": 274,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-knight.webp",
+      "pdfPage": 272,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-queen.webp",
+      "pdfPage": 270,
+      "sourceId": "S01"
+    },
+    {
+      "file": "pentacles-king.webp",
+      "pdfPage": 268,
+      "sourceId": "S01"
+    }
+  ]
+}

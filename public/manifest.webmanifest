@@ -1,0 +1,18 @@
+{
+  "name": "Arcana — Tarot Learning",
+  "short_name": "Arcana",
+  "description": "Rider–Waite–Smith visual learning journey",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#181510",
+  "theme_color": "#181510",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
